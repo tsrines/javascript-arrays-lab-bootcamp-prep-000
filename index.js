@@ -1,12 +1,5 @@
-var kittens = ["Milo", "Otis", "Garfield"]
+function appendKitten(name){
+  const newArray = ["Broom", ...kittens]
 
-function destructivelyAppendKitten(name){
-    kittens.push(name)
-  }
-
-  function destructivelyPrependKitten(name){
-    kittens.unshift(name)
-  }
-  
-  
-  
+  return newArray
+}
